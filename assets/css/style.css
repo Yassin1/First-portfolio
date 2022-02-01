@@ -1,0 +1,43 @@
+body {
+    margin: 40;
+    background-color: rgb(252, 140, 120);
+    font-family: 'work sans', sans-serif;
+    font-weight: 100;
+}
+
+.container {
+    width: 80;
+    font-weight: 0 auto;
+}
+
+header {
+    background: palevioletred;
+}
+header::after {
+
+    content: '';
+    display: table;
+    clear: both; 
+}
+
+nav {
+    float: middle;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 300px;
+} 
+
+
+
+.logo {
+ width: 20px;
+ 
+}
