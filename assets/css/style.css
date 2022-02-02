@@ -8,6 +8,8 @@ body {
 .container {
     width: 80;
     font-weight: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 header {
@@ -40,4 +42,28 @@ nav li {
 .logo {
  width: 20px;
  
+}
+
+.content {
+text-align: center;
+margin-top: 100px;
+padding-bottom: 200px;
+}
+
+.about {
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+}
+
+.footer {
+    text-align: center;
+    list-style: none;
+}
+.logo1 {
+    float: middle;
+    margin-top: 10px;
+    list-style: none;
+    display: inline-block;
+    margin: 0px 35px;
+
 }
